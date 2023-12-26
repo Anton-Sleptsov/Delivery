@@ -2,12 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
     <title>Тануки</title>
   </head>
   <body>
@@ -50,7 +51,7 @@
         </section>
         <section class="products">
           <div class="container">
-            <div class="products-wraper">
+            <div class="products-wraper" id="goods-container">
               <div class="products-card">
                 <div class="products-card_image">
                   <img src="images/goods/product-1.jpg" alt="product-1" />
@@ -300,7 +301,7 @@
               <button class="button-enter btn btn--blue">
                 <span>Оформить заказ</span>
               </button>
-              <button class="button-cart btn btn--white">
+              <button class="button-cart btn btn--white" id="close">
                 <span>Отмена</span>
               </button>
             </div>

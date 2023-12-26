@@ -8,6 +8,7 @@
       rel="stylesheet"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
     <title>Доставка еды</title>
   </head>
   <body>
@@ -58,7 +59,7 @@
               />
             </div>
 
-            <div class="products-wraper">
+            <div class="products-wraper" id="rests-container">
               <div class="products-card">
                 <div class="products-card_image">
                   <img src="images/main/card-1.jpg" alt="rest-1" />
@@ -261,7 +262,7 @@
               <button class="button-enter btn btn--blue">
                 <span>Оформить заказ</span>
               </button>
-              <button class="button-cart btn btn--white">
+              <button class="button-cart btn btn--white" id="close">
                 <span>Отмена</span>
               </button>
             </div>
