@@ -82,8 +82,8 @@
 <script setup>
   const {isOpen} = defineProps({isOpen: Boolean})
 
-  const emit = defineEmits(["togglModal"]);
-  const closeModal = () => emit("togglModal");
+  const emit = defineEmits(["toggleModal"]);
+  const closeModal = () => emit("toggleModal");
 </script>
 
 <style scoped>

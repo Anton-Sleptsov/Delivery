@@ -21,8 +21,8 @@
 </template>
 
 <script setup>
-  const emit = defineEmits(["togglModal"]);
-  const openModal = () => emit("togglModal");
+  const emit = defineEmits(["toggleModal"]);
+  const openModal = () => emit("toggleModal");
 </script>
 
 <style scoped>
